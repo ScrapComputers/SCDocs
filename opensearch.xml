@@ -4,8 +4,8 @@
   <ShortName>ScrapComputers</ShortName>
   <Description>Search ScrapComputers</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://scrapcomputers.github.io/SCDocs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://scrapcomputers.github.io/SCDocs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://scrapcomputers.github.io/SCDocs/opensearch.xml" />
-  <moz:SearchForm>https://scrapcomputers.github.io/SCDocs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://scrapcomputers.saddeststoryevertold.ru/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://scrapcomputers.saddeststoryevertold.ru/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://scrapcomputers.saddeststoryevertold.ru/opensearch.xml" />
+  <moz:SearchForm>https://scrapcomputers.saddeststoryevertold.ru/</moz:SearchForm>
 </OpenSearchDescription>
