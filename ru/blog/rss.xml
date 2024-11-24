@@ -2,24 +2,75 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>ScrapComputers Blog</title>
-        <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog</link>
+        <link>https://scrapcomputers.dev/ru/blog</link>
         <description>ScrapComputers Blog</description>
-        <lastBuildDate>Sun, 06 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
         <item>
+            <title><![CDATA[Further Mod Expansion, Fixes and Optimization Update]]></title>
+            <link>https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization</link>
+            <guid>https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization</guid>
+            <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A smaller precursor update to a larger once coming soon. We felt like these features would be too useful to keep out of the hands of our talanted community, for more information on new functions / renames, please see the code documentation, here is what has changed:]]></description>
+            <content:encoded><![CDATA[<p>A smaller precursor update to a larger once coming soon. We felt like these features would be too useful to keep out of the hands of our talanted community, for more information on new functions / renames, please see the code documentation, here is what has changed:</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-new-stuff">The New Stuff:<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#the-new-stuff" class="hash-link" aria-label="Прямая ссылка на The New Stuff:" title="Прямая ссылка на The New Stuff:">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-font-manager">New font manager<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#new-font-manager" class="hash-link" aria-label="Прямая ссылка на New font manager" title="Прямая ссылка на New font manager">​</a></h3>
+<p>The new font manager allows for a wide range of use cases including our new TTF font rendering system, this allows for any TTF font to be imported into ScrapComputers. The new font manager also hosts the ability to do live text scaling, rotation and coloring. Along side this we have a much larger lists of fonts to choose from!</p>
+<p>Here is an example:</p>
+<p><img decoding="async" loading="lazy" alt="TTF Font Renderer" src="https://scrapcomputers.dev/ru/assets/images/ttf-helloworld-example-553e0d7150ef7a6a151e820cf6777dc3.png" title="Custom TTF font with dynamic scale and rotation" width="1427" height="1001" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-led-light-component">New LED light component<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#new-led-light-component" class="hash-link" aria-label="Прямая ссылка на New LED light component" title="Прямая ссылка на New LED light component">​</a></h3>
+<p>A simple component which allows you to control the color of a block sized LED light, useful for those moments where you need some sick computer controller mood lighting.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="more-python-tools">More Python Tools<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#more-python-tools" class="hash-link" aria-label="Прямая ссылка на More Python Tools" title="Прямая ссылка на More Python Tools">​</a></h3>
+<p>More python tools, such as: TTF font conversion, an obj model converter and more!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-new-models">The New Models<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#the-new-models" class="hash-link" aria-label="Прямая ссылка на The New Models" title="Прямая ссылка на The New Models">​</a></h3>
+<p>VeraDev has been slowly dying in blender once again, he has returned with a new GPS and Laser model, they look very nice!</p>
+<p>Here they are</p>
+<p><img decoding="async" loading="lazy" alt="New GPS Model Image" src="https://scrapcomputers.dev/ru/assets/images/gps-model-example-28f004e626c0096499ee1caa3354e4e3.png" title="New GPS model" width="1428" height="495" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="New Laser Model Image" src="https://scrapcomputers.dev/ru/assets/images/laser-model-example-44e7fff73aa88260d277c7429153d09d.png" title="New laser model" width="1005" height="537" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bigger-environment">Bigger Environment<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#bigger-environment" class="hash-link" aria-label="Прямая ссылка на Bigger Environment" title="Прямая ссылка на Bigger Environment">​</a></h3>
+<p>Because of these new modules added, we have made our environment a bit bigger to accomodate everything, we have also decided to unlock sm.json.open from the unsafe environment for more choices when it comes to relying on files stored in blueprints.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-examples">New Examples<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#new-examples" class="hash-link" aria-label="Прямая ссылка на New Examples" title="Прямая ссылка на New Examples">​</a></h3>
+<p>The PONG! and the whiteboard example have been added so you can see how some of the new modules are implemented.</p>
+<p>Here is pong in action (with debug mode enabled):</p>
+<p><img decoding="async" loading="lazy" alt="PONG! Example Image" src="https://scrapcomputers.dev/ru/assets/images/pong-example-42b343790d7133cc77d0104e31909af5.png" title="Pong doing some sick pong things" width="2253" height="1132" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="fixes-imporvements-and-optimizations">Fixes, Imporvements and Optimizations:<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#fixes-imporvements-and-optimizations" class="hash-link" aria-label="Прямая ссылка на Fixes, Imporvements and Optimizations:" title="Прямая ссылка на Fixes, Imporvements and Optimizations:">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="display">Display<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#display" class="hash-link" aria-label="Прямая ссылка на Display" title="Прямая ссылка на Display">​</a></h3>
+<p>A lot more display optimization has taken place greatly improving the display over a lot more drawing scenarios especially large clear and redraw scenarios. There has also been some improvements to the touch screen system and culling system, find the new functions in the docs.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gps">GPS<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#gps" class="hash-link" aria-label="Прямая ссылка на GPS" title="Прямая ссылка на GPS">​</a></h3>
+<p>An extra point of data has been added to the GPS called degreeRotation which is a euler representation of the GPS's rotation.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="translation-manager">Translation manager<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#translation-manager" class="hash-link" aria-label="Прямая ссылка на Translation manager" title="Прямая ссылка на Translation manager">​</a></h3>
+<p>Missing and mispelled translations have been rectified, and improvements have been made to the Dutch translation.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="syntax-manager">Syntax manager<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#syntax-manager" class="hash-link" aria-label="Прямая ссылка на Syntax manager" title="Прямая ссылка на Syntax manager">​</a></h3>
+<p>More optimisation and color correction has been done to the syntax manager, making the time it takes to format a lot of text very small while making it look as beautiful as VSCode!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luavm">LuaVM<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#luavm" class="hash-link" aria-label="Прямая ссылка �на LuaVM" title="Прямая ссылка на LuaVM">​</a></h3>
+<p>More LuaVM optimisation has been done lowering the benchmark time scores by a few miliseconds.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="component-ratings">Component Ratings<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#component-ratings" class="hash-link" aria-label="Прямая ссылка на Component Ratings" title="Прямая ссылка на Component Ratings">​</a></h3>
+<p>Components now have the non default ratings for a bit of realism.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="error-messages">Error Messages<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#error-messages" class="hash-link" aria-label="Прямая ссылка на Error Messages" title="Прямая ссылка на Error Messages">​</a></h3>
+<p>More error management has been added incase something goes wrong with our end, also better error formatting.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mod-guis">Mod GUI's<a href="https://scrapcomputers.dev/ru/blog/mod-expansion-and-optimization#mod-guis" class="hash-link" aria-label="Прямая ссылка на Mod GUI's" title="Прямая ссылка на Mod GUI's">​</a></h3>
+<p>Components with a GUI will now play audio when you open it.</p>
+<hr>
+<p>That's all for this update! We’re always working on more behind-the-scenes improvements, so stay tuned for what's next!</p>]]></content:encoded>
+            <category>Обновления</category>
+            <category>Багфиксы/Хотфиксы</category>
+        </item>
+        <item>
             <title><![CDATA[Улучшенная поддержка изображений & Багфикс динамика]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/speaker-fix-and-images-added</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/speaker-fix-and-images-added</guid>
+            <link>https://scrapcomputers.dev/ru/blog/speaker-fix-and-images-added</link>
+            <guid>https://scrapcomputers.dev/ru/blog/speaker-fix-and-images-added</guid>
             <pubDate>Sun, 06 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Небольшое обновление, но всё же захватывающее! Мы исправили надоедливый баг с динамиком, ещё больше оптимизировали дисплеи и самое важное, существенно улучшили качество и скорость рендеринга изображений.]]></description>
             <content:encoded><![CDATA[<p>Небольшое обновление, но всё же захватывающее! Мы исправили надоедливый баг с динамиком, ещё больше оптимизировали дисплеи и самое важное, существенно улучшили качество и скорость рендеринга изображений.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="улучшенная-поддержка-изображений">Улучшенная поддержка изображений<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/speaker-fix-and-images-added#%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9" class="hash-link" aria-label="Прямая ссылка на Улучшенная поддержка изображений" title="Прямая ссылка на Улучшенная поддержка изображений">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="улучшенная-поддержка-изображений">Улучшенная поддержка изображений<a href="https://scrapcomputers.dev/ru/blog/speaker-fix-and-images-added#%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9" class="hash-link" aria-label="Прямая ссылка на Улучшенная поддержка изображений" title="Прямая ссылка на Улучшенная поддержка изображений">​</a></h2>
 <p>Изображения теперь выглядят намного чётче и загружаются быстрее. Теперь вы можете отрендерить изображение в <strong>1080p</strong> всего за пару секунд! Это означает улучшенную производительность и более впечатляющие визуальные результаты в рекордные сроки. Будь то работа с высококачественными ресурсами или создание красивой графики, увеличенная скорость рендеринга сделает ваш рабочий процесс более плавным.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-дисплеев">Оптимизация дисплеев<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/speaker-fix-and-images-added#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B5%D0%B2" class="hash-link" aria-label="Прямая ссылка на Оптимизация дисплеев" title="Прямая ссылка на Оптимизация дисплеев">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-дисплеев">Оптимизация дисплеев<a href="https://scrapcomputers.dev/ru/blog/speaker-fix-and-images-added#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B5%D0%B2" class="hash-link" aria-label="Прямая ссылка на Оптимизация дисплеев" title="Прямая ссылка на Оптимизация дисплеев">​</a></h2>
 <p>Наш штатный гуру по дисплеям, Ben Bingo, снова превзошёл самого себя. Он не знает, как остановиться! С последним раундом оптимизаций производительность дисплеев была ещё больше улучшена, сделав отображение более плавным, чётким и быстрым.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="багфикс-динамика">Багфикс динамика<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/speaker-fix-and-images-added#%D0%B1%D0%B0%D0%B3%D1%84%D0%B8%D0%BA%D1%81-%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0" class="hash-link" aria-label="Прямая ссылка на Багфикс динамика" title="Прямая ссылка на Багфикс динамика">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="багфикс-динамика">Багфикс динамика<a href="https://scrapcomputers.dev/ru/blog/speaker-fix-and-images-added#%D0%B1%D0%B0%D0%B3%D1%84%D0%B8%D0%BA%D1%81-%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0" class="hash-link" aria-label="Прямая ссылка на Багфикс динамика" title="Прямая ссылка на Багфикс динамика">​</a></h2>
 <p>Ранее был баг с динамиком, который не позволял использовать полный диапазон модификатора высоты тона в функции playNote, так как динамик воспринимал это значение только как целое число, а не как число с плавающей запятой. Теперь этот баг исправлен.</p>
 <hr>
 <p>Это всё что было в этом обновлении! Мы постоянно работаем над улучшениями, так что следите за новостями.</p>]]></content:encoded>
@@ -28,55 +79,55 @@
         </item>
         <item>
             <title><![CDATA[QoL обновление]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update</guid>
+            <link>https://scrapcomputers.dev/ru/blog/qol-improvement-update</link>
+            <guid>https://scrapcomputers.dev/ru/blog/qol-improvement-update</guid>
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Это небольшое обновление, но оно улучшает работу с модом и исправляет некоторые баги. Мы также внесли несколько изменений для повышения производительности.]]></description>
             <content:encoded><![CDATA[<p>Это небольшое обновление, но оно улучшает работу с модом и исправляет некоторые баги. Мы также внесли несколько изменений для повышения производительности.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="общие-оптимизации">Общие оптимизации<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Общие оптимизации" title="Прямая ссылка на Общие оптимизации">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="общи�е-оптимизации">Общие оптимизации<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Общие оптимизации" title="Прямая ссылка на Общие оптимизации">​</a></h2>
 <p>Мы поработали над ускорением и повышением эффективности мода. Одним из значимых изменений стало то, что мы впервые оптимизировали <strong>LuaVM</strong>. Эти изменения могут быть неочевидными сразу, но вы заметите, что всё работает более плавно, особенно при выполнении сложных задач.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-luavm">Оптимизация LuaVM<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-luavm" class="hash-link" aria-label="Прямая ссылка на Оптимизация LuaVM" title="Прямая ссылка на Оптимизация LuaVM">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-luavm">Оптимизация LuaVM<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-luavm" class="hash-link" aria-label="Прямая ссылка на Оптимизация LuaVM" title="Прямая ссылка на Оптимизация LuaVM">​</a></h2>
 <p>При добавлении поддержки изображений мы использовали одну <strong>длинную строку</strong> для обработки данных изображений. Это вызывало значительные замедления, особенно с большими изображениями (например, 256x256). Проблема была в интерпретаторе <strong>Yueliang</strong> для <strong>LuaVM</strong>, который плохо справлялся с длинными строками.</p>
 <p>После оптимизации от VeraDev разница стала колоссальной. Посмотрите на график производительности ниже:</p>
-<p><img decoding="async" loading="lazy" alt="График оптимизации чтения строк LuaX" src="https://scrapcomputers.saddeststoryevertold.ru/ru/assets/images/luax-string-reading-optimization-graph-20d67cd73b1b83ff294ff00b758c6c28.png" title="График производительности LuaVM, считывающей строку." width="3531" height="1482" class="img_ev3q"><br>
+<p><img decoding="async" loading="lazy" alt="График оптимизации чтения строк LuaX" src="https://scrapcomputers.dev/ru/assets/images/luax-string-reading-optimization-graph-20d67cd73b1b83ff294ff00b758c6c28.png" title="График производительности LuaVM, считывающей строку." width="3531" height="1482" class="img_ev3q"><br>
 <em>Каждая точка показывает тест на чтение строки размером 100 КБ.</em></p>
 <p>Как вы можете видеть, это <strong>значительное</strong> улучшение. Теперь можно хранить и обрабатывать большие объёмы данных, не замедляя работу компьютера. (До тех пор, пока Scrap Mechanic не испортит их)</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="полуавтоматическая-подсветка-синтаксиса">Полуавтоматическая подсветка синтаксиса<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BF%D0%BE%D0%BB%D1%83%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81%D0%B0" class="hash-link" aria-label="Прямая ссылка на Полуавтоматическая подсветка синтаксиса" title="Прямая ссылка на Полуавтоматическая подсветка синтаксиса">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="полуавтоматическая-подсветка-синтаксиса">Полуавтоматическая подсветка синтаксиса<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BF%D0%BE%D0%BB%D1%83%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81%D0%B0" class="hash-link" aria-label="Прямая ссылка на Полуавтоматическая подсветка синтаксиса" title="Прямая ссылка на Полуавтоматическая подсветка синтаксиса">​</a></h2>
 <p>Мы добавили <strong>Полуавтоматическую подсветку синтаксиса</strong> для компьютера в игре. Это значительно облегчает чтение и понимание вашего кода.</p>
-<p><img decoding="async" loading="lazy" alt="Изображение с подсветкой синтаксиса" src="https://scrapcomputers.saddeststoryevertold.ru/ru/assets/images/syntax-highlighting-showcase-cdf0c1736b3c0f5b105eccd6f9fbcf39.png" title="Подсветка синтаксиса в действии" width="2343" height="1269" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Изображение с подсветкой синтаксиса" src="https://scrapcomputers.dev/ru/assets/images/syntax-highlighting-showcase-cdf0c1736b3c0f5b105eccd6f9fbcf39.png" title="Подсветка синтаксиса в действии" width="2343" height="1269" class="img_ev3q"></p>
 <p>Подсветка синтаксиса работает автоматически во время набора текста, но из-за игровых ограничений она работает только при вводе текста в конце всего кода. Вы можете вручную обновить подсветку, нажав на кнопку.</p>
 <p>Подсветка синтаксиса также помогает быстрее находить ошибки. Взгляните на этот пример:</p>
-<p><img decoding="async" loading="lazy" alt="Изображение с подсветкой ошибки" src="https://scrapcomputers.saddeststoryevertold.ru/ru/assets/images/syntax-highlighting-showcase-error-d248f887ba0762917913d6cac2215ded.png" title="Обнаружение ошибок с подсветкой синтаксиса" width="770" height="621" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Изображение с подсветкой ошибки" src="https://scrapcomputers.dev/ru/assets/images/syntax-highlighting-showcase-error-d248f887ba0762917913d6cac2215ded.png" title="Обнаружение ошибок с подсветкой синтаксиса" width="770" height="621" class="img_ev3q"></p>
 <p>Строка с ошибкой становится <strong>красной</strong>, а связанные с ней функции отображаются <strong>тёмно-красным</strong>. Это значительно упрощает поиск и исправление ошибок.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="поддержка-перевода">Поддержка перевода<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0" class="hash-link" aria-label="Прямая ссылка на Поддержка перевода" title="Прямая ссылка на Поддержка перевода">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="поддержка-перевода">Поддержка перевода<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0" class="hash-link" aria-label="Прямая ссылка на Поддержка перевода" title="Прямая ссылка на Поддержка перевода">​</a></h2>
 <p>Мы добавили <strong>LanguageManager</strong>, так что теперь вы можете добавлять переводы в мод. Вы можете добавить любой язык, даже тот, который не поддерживается Scrap Mechanic. Однако некоторые шрифты могут не работать, если игра их не поддерживает, особенно для нелатинских языков.</p>
 <p>Примечание: Это не работает для описаний в инвентаре, т.к они хранятся в формате JSON, а мы не можем изменять их с помощью Lua.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="аддоны-теперь-могут-добавлять-примеры">Аддоны теперь могут добавлять примеры<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%B0%D0%B4%D0%B4%D0%BE%D0%BD%D1%8B-%D1%82%D0%B5%D0%BF%D0%B5%D1%80%D1%8C-%D0%BC%D0%BE%D0%B3%D1%83%D1%82-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D1%8F%D1%82%D1%8C-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B" class="hash-link" aria-label="Прямая ссылка на Аддоны теперь могут добавлять примеры" title="Прямая ссылка на Аддоны теперь могут добавлять примеры">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="аддоны-теперь-могут-добавлять-примеры">Аддоны теперь могут добавлять примеры<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%B0%D0%B4%D0%B4%D0%BE%D0%BD%D1%8B-%D1%82%D0%B5%D0%BF%D0%B5%D1%80%D1%8C-%D0%BC%D0%BE%D0%B3%D1%83%D1%82-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D1%8F%D1%82%D1%8C-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B" class="hash-link" aria-label="Прямая ссылка на Аддоны теперь могут добавлять примеры" title="Прямая ссылка на Аддоны теперь могут добавлять примеры">​</a></h2>
 <p><em>(Для разработчиков аддонов)</em></p>
 <p>Мы добавили <strong>ExampleManager</strong>, он позволяет разработчикам аддонов добавлять примеры кода в компьютер. Это простая функция, позволяющая пользователям легче освоить использование ваших аддонов.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новые-шрифты">Новые шрифты<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%88%D1%80%D0%B8%D1%84%D1%82%D1%8B" class="hash-link" aria-label="Прямая ссылка на Новые шрифты" title="Прямая ссылка на Новые шрифты">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новые-шрифты">Новые шрифты<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%88%D1%80%D0%B8%D1%84%D1%82%D1%8B" class="hash-link" aria-label="Прямая ссылка на Новые шрифты" title="Прямая ссылка на Новые шрифты">​</a></h2>
 <p>В этом обновлении мы добавили новые шрифты. Хотя 4 старых шрифта были удалены, мы добавили 5 новых. 4 из них взяты из <em>Minecraft</em>, а последний — это кастомный шрифт от <strong>VeraDev</strong>, предназначенный для небольших экранов.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-дисплеев">Оптимизация дисплеев<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B5%D0%B2" class="hash-link" aria-label="Прямая ссылка на Оптимизация дисплеев" title="Прямая ссылка на Оптим�изация дисплеев">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="оптимизация-дисплеев">Оптимизация дисплеев<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B5%D0%B2" class="hash-link" aria-label="Прямая ссылка на Оптимизация дисплеев" title="Прямая ссылка на Опт�имизация дисплеев">​</a></h2>
 <p>Ben Bingo снова оптимизировал дисплеи. Он постоянно ищет способы ускорить их работу, и VeraDev (автор этого блога) пытается его остановить, т.к он заходит слишком далеко.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="генератор-изображений">Генератор изображений<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9" class="hash-link" aria-label="Прямая ссылка на Генератор изображений" title="Прямая ссылка на Генератор изображений">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="генератор-изображений">Генератор изображений<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9" class="hash-link" aria-label="Прямая ссылка на Генератор изображений" title="Прямая ссылка на Генератор изображений">​</a></h2>
 <p>Теперь вы можете конвертировать PNG-изображения в специальный формат. После конвертации вы можете отображать эти изображения непосредственно на экране компьютера, что даёт вам новые возможности для добавления визуальных эффектов в игру.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="вот-и-всё">Вот и всё!<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/qol-improvement-update#%D0%B2%D0%BE%D1%82-%D0%B8-%D0%B2%D1%81%D1%91" class="hash-link" aria-label="Прямая ссылка на Вот и всё!" title="Прямая ссылка на Вот и всё!">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="вот-и-всё">Вот и всё!<a href="https://scrapcomputers.dev/ru/blog/qol-improvement-update#%D0%B2%D0%BE%D1%82-%D0%B8-%D0%B2%D1%81%D1%91" class="hash-link" aria-label="Прямая ссылка на Вот и всё!" title="Прямая ссылка на Вот и всё!">​</a></h2>
 <p>Это всё для данного обновления, но предупреждаем, следующее обновление будет <strong>крупным</strong>, так что не ожидайте обновлений в ближайшие недели. Если хотите узнать, что будет в следующем обновлении, загляните на наш <strong><a href="https://discord.gg/6r46PkYr9s" target="_blank" rel="noopener noreferrer">Discord</a></strong> сервер. В нём вы можете увидеть последние тизеры и пообщаться с командой.</p>]]></content:encoded>
             <category>Обновления</category>
             <category>Багфиксы/Хотфиксы</category>
         </item>
         <item>
             <title><![CDATA[Долгожданное обновление ScrapComputers V2.0]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/ScrapComputers-2.0</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/ScrapComputers-2.0</guid>
+            <link>https://scrapcomputers.dev/ru/blog/ScrapComputers-2.0</link>
+            <guid>https://scrapcomputers.dev/ru/blog/ScrapComputers-2.0</guid>
             <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Это самое крупное обновление, которое мы когда-либо выпускали на данный момент. Было внесено множество изменений, багфиксов и оптимизаций. Мы рекомендуем вам ознакомиться с остальной документацией, чтобы все изменения. Я упомяну лишь несколько ключевых моментов.]]></description>
             <content:encoded><![CDATA[<p>Это самое крупное обновление, которое мы когда-либо выпускали на данный момент. Было внесено множество изменений, багфиксов и оптимизаций. Мы рекомендуем вам ознакомиться с остальной документацией, чтобы все изменения. Я упомяну лишь несколько ключевых моментов.</p>
@@ -136,8 +187,8 @@
         </item>
         <item>
             <title><![CDATA[Исправлен ещё один баг с лагами дисплея!]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/another-display-lag-bug-fixed</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/another-display-lag-bug-fixed</guid>
+            <link>https://scrapcomputers.dev/ru/blog/another-display-lag-bug-fixed</link>
+            <guid>https://scrapcomputers.dev/ru/blog/another-display-lag-bug-fixed</guid>
             <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Я обнаружил ещё одну ошибку с "утечкой памяти" дисплея, которая вызывала дублирование эффектов.]]></description>
             <content:encoded><![CDATA[<p>Я обнаружил ещё одну ошибку с "утечкой памяти" дисплея, которая вызывала дублирование эффектов.</p>
@@ -148,8 +199,8 @@
         </item>
         <item>
             <title><![CDATA[Хотфикс проблемы с лагами дисплея]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/hotfix-for-display-lag-issue</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/hotfix-for-display-lag-issue</guid>
+            <link>https://scrapcomputers.dev/ru/blog/hotfix-for-display-lag-issue</link>
+            <guid>https://scrapcomputers.dev/ru/blog/hotfix-for-display-lag-issue</guid>
             <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Мы только что выпустили новый хотфикс для решения проблемы с дисплеем, которая со временем вызывала лаги.]]></description>
             <content:encoded><![CDATA[<p>Мы только что выпустили новый хотфикс для решения проблемы с дисплеем, которая со временем вызывала лаги.</p>
@@ -160,13 +211,13 @@
         </item>
         <item>
             <title><![CDATA[Обновление с багфиксом: Удаление багфикса, чтобы исправить баг!]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug</guid>
+            <link>https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug</link>
+            <guid>https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug</guid>
             <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Мы просто не реализовали багфикс в качестве багфикса. Это даже не шутка.]]></description>
             <content:encoded><![CDATA[<p>Мы просто не реализовали багфикс в качестве багфикса. Это даже не шутка.</p>
 <p>Возможно, вы задаетесь вопросом: “Неужели мы просто удалили багфикс, чтобы решить проблему?” Да, именно это и произошло! В нашем последнем обновлении для ScrapComputers нам пришлось удалить предыдущее исправление и, по сути, заново ввести баг, чтобы устранить ещё более серьезную проблему. Давайте углубимся в детали.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="баг-с-радиоуправлением-в-чем-дело">Баг с радиоуправлением: В чем дело?<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug#%D0%B1%D0%B0%D0%B3-%D1%81-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%B4%D0%B5%D0%BB%D0%BE" class="hash-link" aria-label="Прямая ссылка на Баг с радиоуправлением: В чем дело?" title="Прямая ссылка на Баг с радиоуправлением: В чем дело?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="баг-с-радиоуправлением-в-чем-дело">Баг с радиоуправлением: В чем дело?<a href="https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug#%D0%B1%D0%B0%D0%B3-%D1%81-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%B4%D0%B5%D0%BB%D0%BE" class="hash-link" aria-label="Прямая ссылка на Баг с радиоуправлением: В чем дело?" title="Прямая ссылка на Баг с радиоуправлением: В чем дело?">​</a></h2>
 <p>Для тех, кто не знаком с багов с радиоуправлением в ScrapComputers, он позволяет удалённо управлять компонентами, даже если они не имеют физических соединений.
 Звучит заманчиво, не так ли? На самом деле, нет. Хотя это может показаться удобной функцией, она привела к неожиданному поведению и принесла больше вреда,
 чем пользы. Первоначальный багфикс был направлен на устранение этой проблемы, но в итоге это привело к ещё большим багам. Поэтому нам пришлось удалить исправление,
@@ -174,16 +225,16 @@
 <p>Примером проблем, вызванных ошибкой радиоуправления, является то, что она может “сломать” ваш компьютер.
 Пользователи сообщали о получении сообщения об ошибке “Компонент не найден”, хотя компонент все еще был подключен.
 Это, по сути, сделало компьютер бесполезным, поскольку вы больше не могли взаимодействовать с этим компонентом, что является серьезной проблемой!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-ещё-нового">Что ещё нового?<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug#%D1%87%D1%82%D0%BE-%D0%B5%D1%89%D1%91-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE" class="hash-link" aria-label="Прямая ссылка на Что ещё нового?" title="Прямая ссылка на Что ещё нового?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-ещё-нового">Что ещё нового?<a href="https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug#%D1%87%D1%82%D0%BE-%D0%B5%D1%89%D1%91-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE" class="hash-link" aria-label="Прямая ссылка на Что ещё нового?" title="Прямая ссылка на Что ещё нового?">​</a></h2>
 <p>Помимо исправления бага радиоуправления, мы внедрили несколько других обновлений и изменений, чтобы улучшить работу с ScrapComputers. Вот полный список изменений:</p>
 <ul>
 <li>Удалено исправление ошибки радиоуправления: Нам пришлось удалить исправление бага радиоуправления из-за его негативного воздействия.</li>
 <li>Расширенная функциональность клавиатуры на сиденьях: теперь вы можете пользоваться клавиатурой, сидя на сиденье, даже если значок, указывающий на эту функцию, отсутствует.</li>
 <li>Исправлена критическая проблема с компьютером: ранее наша система бан-контроля не влияла на работу компьютера. Теперь это исправлено.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-это-означает-для-вас">Что это означает для вас?<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE-%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%B5%D1%82-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B0%D1%81" class="hash-link" aria-label="Прямая ссылка на Что это означает для вас?" title="Прямая ссылка на Что это означает для вас?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-это-означает-для-вас">Что это означает для вас?<a href="https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE-%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%B5%D1%82-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B0%D1%81" class="hash-link" aria-label="Прямая ссылка на Что это означает для вас?" title="Прямая ссылка на Что это означает для вас?">​</a></h2>
 <p>Хотя возврат бага может показаться нелогичным, этот шаг был необходим для поддержания стабильности и удобства использования. Мы стремимся обеспечить вам бесперебойную работу с ScrapComputers, и иногда для продвижения вперёд требуется немного отступить.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новый-обнаруженный-баг">Новый обнаруженный баг!<a href="https://scrapcomputers.saddeststoryevertold.ru/ru/blog/remove-bugfix-to-fix-bug#%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B0%D0%B3" class="hash-link" aria-label="Прямая ссылка на Новый обнаруженный баг!" title="Прямая ссылка на Новый обнаруженный баг!">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новый-обнаруженный-баг">Новый обнаруженный баг!<a href="https://scrapcomputers.dev/ru/blog/remove-bugfix-to-fix-bug#%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B0%D0%B3" class="hash-link" aria-label="Прямая ссылка на Новый обнаруженный баг!" title="Прямая ссылка на Новый обнаруженный баг!">​</a></h2>
 <p>В ходе нашего тестирования и получения отзывов сообщества мы обнаружили новый бан. Один из участников нашего сообщества, Red Builder, столкнулся с проблемой во время работы над проектом для ScrapComputers. При установке <code>self.cl</code> на пустую таблицу в небезопасной среде происходили значительные проблемы. ScrapComputers использует <code>self.cl</code> для переменных на стороне клиента, поэтому, когда он это сделал, это фактически уничтожило все настройки его компьютера, что привело к таким ошибкам, как <code>unable to find self.sv</code>, что не является типичным поведением.</p>
 <p>Мы планируем устранить эту проблему в ближайшее время. Тем временем мы рекомендуем избегать настройки <code>self.sv</code> или <code>self.cl</code>, если он находится в небезопасной среде.</p>]]></content:encoded>
             <category>Обновления</category>
@@ -191,8 +242,8 @@
         </item>
         <item>
             <title><![CDATA[Обновление: Обновлённая система аддонов]]></title>
-            <link>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/update-addon-system</link>
-            <guid>https://scrapcomputers.saddeststoryevertold.ru/ru/blog/update-addon-system</guid>
+            <link>https://scrapcomputers.dev/ru/blog/update-addon-system</link>
+            <guid>https://scrapcomputers.dev/ru/blog/update-addon-system</guid>
             <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Мы только что сделали нашу систему аддонов намного лучше, чем было!]]></description>
             <content:encoded><![CDATA[<p>Мы только что сделали нашу систему аддонов намного лучше, чем было!</p>
