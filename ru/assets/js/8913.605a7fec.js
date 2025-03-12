@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscrap_computers_docs=self.webpackChunkscrap_computers_docs||[]).push([[8913],{8913:(s,c,e)=>{e.r(c)}}]);

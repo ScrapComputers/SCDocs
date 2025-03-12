@@ -4,10 +4,55 @@
         <title>ScrapComputers Blog</title>
         <link>https://scrapcomputers.dev/blog</link>
         <description>ScrapComputers Blog</description>
-        <lastBuildDate>Sun, 24 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Utility Update]]></title>
+            <link>https://scrapcomputers.dev/blog/the-utility-update</link>
+            <guid>https://scrapcomputers.dev/blog/the-utility-update</guid>
+            <pubDate>Tue, 04 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We've released an update adding a bunch of new features! Notably, utilities to help you as well as several new additions!]]></description>
+            <content:encoded><![CDATA[<p>We've released an update adding a bunch of new features! Notably, utilities to help you as well as several new additions!</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="okay-so-whats-new">Okay, so what's new?<a href="https://scrapcomputers.dev/blog/the-utility-update#okay-so-whats-new" class="hash-link" aria-label="Direct link to Okay, so what's new?" title="Direct link to Okay, so what's new?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mathpid">math.pid<a href="https://scrapcomputers.dev/blog/the-utility-update#mathpid" class="hash-link" aria-label="Direct link to math.pid" title="Direct link to math.pid">​</a></h3>
+<p>We've added a new function called <code>math.pid</code>. It's an implementation of the <a href="https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller" target="_blank" rel="noopener noreferrer"><strong>Proportional-Integral-Derivative controller</strong></a> or PID for short. You can set a value and configure parameters for P, I, and D, and it will error-correct and provide you with the adjusted value.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="onreload-callback">onReload() callback<a href="https://scrapcomputers.dev/blog/the-utility-update#onreload-callback" class="hash-link" aria-label="Direct link to onReload() callback" title="Direct link to onReload() callback">​</a></h3>
+<p>The <code>onReload()</code> callback has been added to the mod. It is called whenever the computer is saved.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="display-optimizations">Display Optimizations<a href="https://scrapcomputers.dev/blog/the-utility-update#display-optimizations" class="hash-link" aria-label="Direct link to Display Optimizations" title="Direct link to Display Optimizations">​</a></h3>
+<p>Display optimizations have been improved and are now significantly faster than before!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="radar-is-now-upgraded">Radar is now upgraded<a href="https://scrapcomputers.dev/blog/the-utility-update#radar-is-now-upgraded" class="hash-link" aria-label="Direct link to Radar is now upgraded" title="Direct link to Radar is now upgraded">​</a></h3>
+<p>We've upgraded the radars! They can now detect both units and characters. The range has also been increased.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="you-like-gravity-right">You like gravity, right?<a href="https://scrapcomputers.dev/blog/the-utility-update#you-like-gravity-right" class="hash-link" aria-label="Direct link to You like gravity, right?" title="Direct link to You like gravity, right?">​</a></h3>
+<p>Gravity Controllers are now in the mod. They let you manipulate the creation's gravity or even disable gravity.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="speakers-are-improved">Speakers are improved<a href="https://scrapcomputers.dev/blog/the-utility-update#speakers-are-improved" class="hash-link" aria-label="Direct link to Speakers are improved" title="Direct link to Speakers are improved">​</a></h3>
+<p>We've improved the speakers, so they're much better than before.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nbs--midi-player">NBS &amp; MIDI Player<a href="https://scrapcomputers.dev/blog/the-utility-update#nbs--midi-player" class="hash-link" aria-label="Direct link to NBS &amp; MIDI Player" title="Direct link to NBS &amp; MIDI Player">​</a></h3>
+<p>There are now two audio players you can use with the speakers. These are:</p>
+<ul>
+<li><strong>NBS</strong>: Note Block Song, a Minecraft sound format from a mod.</li>
+<li><strong>MIDI</strong>: A standard electronic music format.</li>
+</ul>
+<p>The MIDI player was created by ForgivenID, props to him.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lbi-optimizations">LBI Optimizations<a href="https://scrapcomputers.dev/blog/the-utility-update#lbi-optimizations" class="hash-link" aria-label="Direct link to LBI Optimizations" title="Direct link to LBI Optimizations">​</a></h3>
+<p>We've optimized the LuaVM slightly. We believe we've now reached the limits of optimizing our LuaVM!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="video-generation-upgrades">Video Generation Upgrades<a href="https://scrapcomputers.dev/blog/the-utility-update#video-generation-upgrades" class="hash-link" aria-label="Direct link to Video Generation Upgrades" title="Direct link to Video Generation Upgrades">​</a></h3>
+<p>We've focused on improving video playback at higher resolutions and in color. This means you can now play <em>Bad Apple</em> at 128x128 with color, and it will only take up <strong>40 MB</strong>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="upgraded-bitstream--base64">Upgraded Bitstream &amp; Base64<a href="https://scrapcomputers.dev/blog/the-utility-update#upgraded-bitstream--base64" class="hash-link" aria-label="Direct link to Upgraded Bitstream &amp; Base64" title="Direct link to Upgraded Bitstream &amp; Base64">​</a></h3>
+<p>The base64 library has been upgraded for greater accuracy.<br>
+<!-- -->The bitstream library has been completely rewritten to be a <strong>proper bitstream library</strong>! Note that it's only Big-Endian.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lz4-compression-module">LZ4 Compression Module<a href="https://scrapcomputers.dev/blog/the-utility-update#lz4-compression-module" class="hash-link" aria-label="Direct link to LZ4 Compression Module" title="Direct link to LZ4 Compression Module">​</a></h3>
+<p>If you want to compress your binary data, you can now use LZ4 to compress it!</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="so-whats-next">So, what's next?<a href="https://scrapcomputers.dev/blog/the-utility-update#so-whats-next" class="hash-link" aria-label="Direct link to So, what's next?" title="Direct link to So, what's next?">​</a></h2>
+<p>Although we're pushing updates at a slower pace (because we have lives), VeraDev is still releasing small updates for bug fixes and user-requested features. We're continuously working on it and adding new features.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-about-scgui">What about ScGui?<a href="https://scrapcomputers.dev/blog/the-utility-update#what-about-scgui" class="hash-link" aria-label="Direct link to What about ScGui?" title="Direct link to What about ScGui?">​</a></h3>
+<p>For those who don't know, VeraDev is working on a very MASSIVE GUI framework for ScrapComputers.</p>
+<p>Unfortunately, this will take a lot of time to complete, mainly because structuring the code and developing the core internals is a huge task. As of writing this blog post, the current revision is 4, as VeraDev is still trying to create a stable codebase for such a large-scale project.</p>]]></content:encoded>
+            <category>Updates</category>
+        </item>
         <item>
             <title><![CDATA[Further Mod Expansion, Fixes and Optimization Update]]></title>
             <link>https://scrapcomputers.dev/blog/mod-expansion-and-optimization</link>
