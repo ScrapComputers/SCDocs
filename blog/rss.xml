@@ -4,7 +4,7 @@
         <title>ScrapComputers Blog</title>
         <link>https://scrapcomputers.dev/blog</link>
         <description>ScrapComputers Blog</description>
-        <lastBuildDate>Mon, 18 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[ScrapComputers: Pre-V3 Update]]></title>
             <link>https://scrapcomputers.dev/blog/pre-v3-update</link>
             <guid>https://scrapcomputers.dev/blog/pre-v3-update</guid>
-            <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 18 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[We're back! After a bit of a break, we’re dropping a Pre-V3 update for ScrapComputers. It’s been a while since our]]></description>
             <content:encoded><![CDATA[<p>We're back! After a bit of a break, we’re dropping a <strong>Pre-V3</strong> update for ScrapComputers. It’s been a while since our
 last release, so we wanted to roll out some completed features and improvements ahead of the full V3 update.</p>

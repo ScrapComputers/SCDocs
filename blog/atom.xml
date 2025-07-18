@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scrapcomputers.dev/blog</id>
     <title>ScrapComputers Blog</title>
-    <updated>2025-08-18T00:00:00.000Z</updated>
+    <updated>2025-07-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scrapcomputers.dev/blog"/>
     <subtitle>ScrapComputers Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[ScrapComputers: Pre-V3 Update]]></title>
         <id>https://scrapcomputers.dev/blog/pre-v3-update</id>
         <link href="https://scrapcomputers.dev/blog/pre-v3-update"/>
-        <updated>2025-08-18T00:00:00.000Z</updated>
+        <updated>2025-07-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're back! After a bit of a break, we’re dropping a Pre-V3 update for ScrapComputers. It’s been a while since our]]></summary>
         <content type="html"><![CDATA[<p>We're back! After a bit of a break, we’re dropping a <strong>Pre-V3</strong> update for ScrapComputers. It’s been a while since our
 last release, so we wanted to roll out some completed features and improvements ahead of the full V3 update.</p>
