@@ -2,11 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scrapcomputers.dev/blog</id>
     <title>ScrapComputers Blog</title>
-    <updated>2025-03-04T00:00:00.000Z</updated>
+    <updated>2025-08-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scrapcomputers.dev/blog"/>
     <subtitle>ScrapComputers Blog</subtitle>
     <icon>https://scrapcomputers.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ScrapComputers: Pre-V3 Update]]></title>
+        <id>https://scrapcomputers.dev/blog/pre-v3-update</id>
+        <link href="https://scrapcomputers.dev/blog/pre-v3-update"/>
+        <updated>2025-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're back! After a bit of a break, we’re dropping a Pre-V3 update for ScrapComputers. It’s been a while since our]]></summary>
+        <content type="html"><![CDATA[<p>We're back! After a bit of a break, we’re dropping a <strong>Pre-V3</strong> update for ScrapComputers. It’s been a while since our
+last release, so we wanted to roll out some completed features and improvements ahead of the full V3 update.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-a-pre-v3-update">Why a Pre-V3 Update?<a href="https://scrapcomputers.dev/blog/pre-v3-update#why-a-pre-v3-update" class="hash-link" aria-label="Direct link to Why a Pre-V3 Update?" title="Direct link to Why a Pre-V3 Update?">​</a></h2>
+<p>It’s been quiet on the update front, infact too quiet. While we’ve been working on other projects, we've also accumulated some
+solid improvements and new features in the ScrapComputers repo. Rather than let them gather dust, we decided to ship
+pre-update. We’re not one of those dev teams that disappears after one good release.</p>
+<p>We’re still here, and we’re still building.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-been-going-on">What’s Been Going On?<a href="https://scrapcomputers.dev/blog/pre-v3-update#whats-been-going-on" class="hash-link" aria-label="Direct link to What’s Been Going On?" title="Direct link to What’s Been Going On?">​</a></h2>
+<p>Not a ton, if we’re being honest. Most of the real development happened in March and July, with a bit of downtime in between.</p>
+<p>The good news? We’ve re-focused on ScrapComputers again, and the full <strong>V3 update</strong> is expected in the next 1–2 months
+but no promises though!</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-included-in-this-update">What’s Included in This Update?<a href="https://scrapcomputers.dev/blog/pre-v3-update#whats-included-in-this-update" class="hash-link" aria-label="Direct link to What’s Included in This Update?" title="Direct link to What’s Included in This Update?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ban-system-removed">Ban System Removed<a href="https://scrapcomputers.dev/blog/pre-v3-update#ban-system-removed" class="hash-link" aria-label="Direct link to Ban System Removed" title="Direct link to Ban System Removed">​</a></h3>
+<p>The old ban system didn’t serve much purpose anymore, so we scrapped it.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="computer-optimizations--bug-fixes">Computer Optimizations &amp; Bug Fixes<a href="https://scrapcomputers.dev/blog/pre-v3-update#computer-optimizations--bug-fixes" class="hash-link" aria-label="Direct link to Computer Optimizations &amp; Bug Fixes" title="Direct link to Computer Optimizations &amp; Bug Fixes">​</a></h3>
+<p>Various under-the-hood improvements and bug fixes should make the computer experience smoother and more stable.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="config-system-upgrades">Config System Upgrades<a href="https://scrapcomputers.dev/blog/pre-v3-update#config-system-upgrades" class="hash-link" aria-label="Direct link to Config System Upgrades" title="Direct link to Config System Upgrades">​</a></h3>
+<p>The configuration system is now more compatible with older world saves meaning that your worlds with ScrapComputers 1.0 should
+be still playable without error!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="more-hdd-storage">More HDD Storage<a href="https://scrapcomputers.dev/blog/pre-v3-update#more-hdd-storage" class="hash-link" aria-label="Direct link to More HDD Storage" title="Direct link to More HDD Storage">​</a></h3>
+<p>We’ve optimized the HDD which should let you store data in it, even though we don't expect you to have a HDD with 1 megabyte of data in it.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-kwc-compression-library">New: KWC Compression Library<a href="https://scrapcomputers.dev/blog/pre-v3-update#new-kwc-compression-library" class="hash-link" aria-label="Direct link to New: KWC Compression Library" title="Direct link to New: KWC Compression Library">​</a></h3>
+<p>Introducing <strong>KWC</strong> (Keyword Compression)</p>
+<p>It's a custom string compression system that splits strings into two arrays: one for keywords and one for indexes. It’s lightweight
+and efficient.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="camera-color-cache-fix">Camera Color Cache Fix<a href="https://scrapcomputers.dev/blog/pre-v3-update#camera-color-cache-fix" class="hash-link" aria-label="Direct link to Camera Color Cache Fix" title="Direct link to Camera Color Cache Fix">​</a></h3>
+<p>Ben Bingo has fixed an issue with how the camera handles color caching. Say goodbye to weird visual bugs!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="display-optimizations--new-function">Display Optimizations &amp; New Function<a href="https://scrapcomputers.dev/blog/pre-v3-update#display-optimizations--new-function" class="hash-link" aria-label="Direct link to Display Optimizations &amp; New Function" title="Direct link to Display Optimizations &amp; New Function">​</a></h3>
+<p>Touchscreen displays now run faster and smoother. We’ve also added a new <code>drawWithPoints()</code> function, which lets you draw filled
+polygons using just points, powered by an earcut algorithm.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>The points must be in either clockwise or counter-clockwise order. Hole support isn't included but maybe in the future!</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ascfmanager-fixes">ASCFManager Fixes<a href="https://scrapcomputers.dev/blog/pre-v3-update#ascfmanager-fixes" class="hash-link" aria-label="Direct link to ASCFManager Fixes" title="Direct link to ASCFManager Fixes">​</a></h3>
+<p>Fixed a few bugs with ASCFManager. While we considered a V2, the truth is it's already fast enough, turns out <code>drawFilledTriangle</code>
+was the real slowdown.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>We also attempted <strong>proper font rendering</strong>, and while it technically worked, it looked bad and performed worse. That idea’s
+shelved... for now. (Maybe when we have a hole system for drawWithPoints and drawFilledTriangle was faster)</p></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-scgui">About ScGui<a href="https://scrapcomputers.dev/blog/pre-v3-update#about-scgui" class="hash-link" aria-label="Direct link to About ScGui" title="Direct link to About ScGui">​</a></h2>
+<p>So... about ScGui. I (VeraDev) may have over-promised here. Building a full GUI library is <em>way</em> harder than expected.
+While I don’t want to scrap the project, it might get shelved if progress stalls too much.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-future-of-scrapcomputers">The Future of ScrapComputers<a href="https://scrapcomputers.dev/blog/pre-v3-update#the-future-of-scrapcomputers" class="hash-link" aria-label="Direct link to The Future of ScrapComputers" title="Direct link to The Future of ScrapComputers">​</a></h2>
+<p>There’s still tons of untapped potential in ScrapComputers. We’re committed to keeping the mod alive and improving it, even
+if our release schedule has been a bit slow and communication sparse.</p>
+<p>As long as motivation and discipline stay strong, ScrapComputers will keep evolving.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="website--mod-translations">Website &amp; Mod Translations<a href="https://scrapcomputers.dev/blog/pre-v3-update#website--mod-translations" class="hash-link" aria-label="Direct link to Website &amp; Mod Translations" title="Direct link to Website &amp; Mod Translations">​</a></h2>
+<p>On translations for the website and mod... yeah. Not much has happened despite recruiting:</p>
+<ul>
+<li>3 Russian translators</li>
+<li>1 Romanian/Norwegian translator</li>
+</ul>
+<p>At this point, we’re considering removing translation support entirely and making ScrapComputers English-only.</p>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Please don’t harass translators</div><div class="admonitionContent_BuS1"><p>Even if progress has been slow, please <strong>do not harass</strong> translators. It’s never okay, and people volunteer their time.</p></div></div>
+<hr>
+<p>Thanks for sticking with us. Big things are coming. Stay tuned for the full <strong>V3 update</strong>!</p>]]></content>
+        <author>
+            <name>VeraDev</name>
+            <uri>https://github.com/VeraDev0</uri>
+        </author>
+        <category label="Updates" term="Updates"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Utility Update]]></title>
         <id>https://scrapcomputers.dev/blog/the-utility-update</id>
@@ -258,8 +329,8 @@
         <id>https://scrapcomputers.dev/blog/another-display-lag-bug-fixed</id>
         <link href="https://scrapcomputers.dev/blog/another-display-lag-bug-fixed"/>
         <updated>2024-06-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I discovered another display "memory leak" bug that was causing duplicated effects.]]></summary>
-        <content type="html"><![CDATA[<p>I discovered another display "memory leak" bug that was causing duplicated effects.</p>
+        <summary type="html"><![CDATA[We've discovered another display "memory leak" bug that was causing duplicated effects.]]></summary>
+        <content type="html"><![CDATA[<p>We've discovered another display "memory leak" bug that was causing duplicated effects.</p>
 <p>The issue was due to Display.clear making clones of the backpanel! The bug has been fixed.</p>
 <p>Stay tuned for more updates! (And Hotfixes!)</p>]]></content>
         <author>
