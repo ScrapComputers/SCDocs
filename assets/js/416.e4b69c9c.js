@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkscrap_computers_docs=globalThis.webpackChunkscrap_computers_docs||[]).push([[416],{416:(s,c,p)=>{p.r(c)}}]);
