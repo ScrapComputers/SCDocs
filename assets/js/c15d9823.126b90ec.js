@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkscrap_computers_docs=globalThis.webpackChunkscrap_computers_docs||[]).push([[8146],{9328(o){o.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":12,"totalPages":1,"totalCount":12,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
